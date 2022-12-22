@@ -1,0 +1,54 @@
+Thierno Diallo
+
+Midterm_PartA
+
+Part A.1: Syntax Errors
+#1. line 8 uses incorrect syntax for checking if the input is
+a list. the correct syntax should be is not.
+#2. line 9 has incorrect syntax for strings statement inside the
+print statement. The correct version should be 'Error: \'pts\' must be list'
+to stop the string from breaking up into two strings with a non string component.
+#3. on lines 17 and 18 there is a tuple syntax error as tuples cannot be changed.
+#4. On line 19 there is a syntax error because you can't use the plus
+operation to add a tuple to a list.
+#5. line 13 is an indexing syntax error as we are trying to access dictionary
+using a tuple as the index.
+
+
+Part A.2: Sematic Errors
+#1 Line 12 will always be true because i will always be a number as we 
+are look at a range thus we should look at dna[i] to check if it's a '-'
+at that index.
+#2 The range method on line 11 should be range(0, len(dna)) without the minus 1
+because otherwise the loop wont look at the dna[-1].
+#3 On line 14 we should incremnt count by 1 rather than i so that we correctly count the dashes
+thus it should be count += 1.
+#4 On line 13 we should be checking if dna[i] == '-' rather than cheking if the i == '-' 
+because i is a number.
+#5 On line 17 there should be a return None statement so that the function does't return 
+anything if a non dash is found.
+#6 line 15 and 16 are over indented thus we should revome the extra tabernacle because we 
+want to print that if d[i] is not a dash or AGTC.
+
+
+Part A.3: Style Errors
+There is inconsistant tapping on line line 13 compared to line 2.
+this might not be an issue but docstring should usually include the format and no examples:
+arguments:
+return value:
+This code is extremely redundant. We do not need to get the keys on line 9 as a list to get the 
+len of the keys as we can just write len(dict1) in our range mwthod. However, we don't even need to find
+the length of the dictionary as we do not need it when we can loop through a dictionaries keys and values. 
+Also, as we can loop through the keys of a dictionary, we do not need lines 14 and 15 where 
+the values at that key is defined. Instead we can write:
+for key in dict:
+and check for dict1 and dict2 at that key as it will loop thorugh all the keys of dict1 without lines 9, 
+10, 11, 14, and 15. Also we can combine the if statements with an and like so:
+for key in dict1:
+    if key in dict2 and dict1[key] == dict2[key]:
+        count += 1
+return count
+This will also reduce the abundance of nested loops in the function.
+The function could also use a more descriptive name.
+There is a syntax error on line 16 with a missing collin.
+

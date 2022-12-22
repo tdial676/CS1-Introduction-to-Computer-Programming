@@ -1,0 +1,39 @@
+CS 1 Assignment Collaboration Component (Required)
+Name: Thierno Diallo, tdiallo@caltech.edu
+Partner: Ethan Barajas, ebarajas@calteh.edu
+Collaborated on: Lab 6 part B and C
+Estimated time collaborating: 2 hours
+
+--------------------------------------------------------------------------------
+Collaboration (at least 3 sentences answering some or all of the following):
+--------------------------------------------------------------------------------
+What did collaboration look like between you and your partner on the Lab 6
+resubmission?
+How long did you spend on the resubmission independently vs. with your partner?
+Did you collaborate via Zoom? In-person?
+Did you walk through each of each other's code (this is ok, as long as you aren't
+copy/pasting each other's code)?
+What questions did you ask your partner? How did they answer? (recommended to
+provide a bulleted-list here, especially for your own takeaways/common bugs)
+Did you use any visual/pseudocode strategies (white board, paper, tablet, etc.)?
+--------------------------------------------------------------------------------
+We collaborated in person. We worked through the pseudocode together on a
+white board for the problems we were having trouble with. I had a lot of
+errors so my partner would map out the pseudocode and explain why the error
+might be caused. We looked at each others code for when we ran into syntax errors.
+--------------------------------------------------------------------------------
+Reflection (at least 3 sentences):
+--------------------------------------------------------------------------------
+How was your overall experience working with your partner?
+Did you learn anything new (debugging strategies, Lab 6 material, etc.)
+Would you recommend collaboration in this way in Lab 6 for future offerings of
+CS 1?
+
+I enjoyed having someone there to help me map out my ideas because sometimes
+all I needed was to put my thoughts into words. Also, it was a lot easier
+debugging code because I had a second perspective on what might be causing
+my errors. I also enjoyed gaining a new perspective on how to approach
+challenging problems. I would definitely recommend more group oriented projects
+in the future because I feel that it replicates what it feels like in the work
+force and it is a great learning opportunity as being able to work well with
+others is integral in today's self-centric world.
