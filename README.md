@@ -3,3 +3,4 @@ A course on computer programming emphasizing the program design process and prag
 # To My Fellow Caltech students
 Only look at the solutions (if it's the same assignment) once you have completed the course or submitted the appropriate assignments.
 As per the Honor Code: No member of the Caltech community shall take unfair advantage of any other member of the Caltech community.
+All starter code and tests provided by instructor.
